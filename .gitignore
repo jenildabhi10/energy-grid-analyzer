@@ -1,0 +1,27 @@
+ # Secrets — never commit
+.env
+
+# Database — too large, regenerate with run_ingestion.py
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+Save it (Ctrl + S), then commit:
+cmdgit add .gitignore
+git commit -m "Add .gitignore to protect .env and database"
+git push
+Then run git status to confirm — .env and energy_grid.db should not appear in the list. Paste the output here if you're unsure.

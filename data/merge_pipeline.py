@@ -1,15 +1,3 @@
-"""
-data/merge_pipeline.py
-======================
-Week 2: ETL Pipeline & Feature Engineering
-Joins EIA + NOAA + Census tables and engineers 15 ML-ready features.
-
-Usage:
-    python merge_pipeline.py
-
-Output:
-    Saves 'features' table to energy_grid.db — ready for ML models.
-"""
 
 import os
 import sqlite3

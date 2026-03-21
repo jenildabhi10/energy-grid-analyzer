@@ -1,14 +1,9 @@
 """
-data/fetch_census.py
-====================
-Fetches state population + GDP from the U.S. Census Bureau API.
-Used to normalize energy demand to per-capita metrics.
+
 
 Free key: https://api.census.gov/data/key_signup.html (instant email)
 API docs: https://www.census.gov/data/developers/guidance/api-user-guide.html
 
-This data is static (one row per state, refreshed yearly).
-Much simpler than the other fetchers — just one call.
 """
 
 import os

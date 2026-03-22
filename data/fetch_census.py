@@ -1,11 +1,3 @@
-"""
-
-
-Free key: https://api.census.gov/data/key_signup.html (instant email)
-API docs: https://www.census.gov/data/developers/guidance/api-user-guide.html
-
-"""
-
 import os
 import sqlite3
 import requests

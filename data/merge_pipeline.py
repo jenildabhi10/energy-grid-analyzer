@@ -358,7 +358,7 @@ def print_validation(df: pd.DataFrame):
 
 def run():
     print("=" * 55)
-    print("  Week 2: ETL Pipeline & Feature Engineering")
+    print("ETL Pipeline & Feature Engineering")
     print("=" * 55)
 
     # Load
@@ -382,7 +382,7 @@ def run():
     # Save
     save_features(df, DB_PATH)
 
-    print("\n✓ ETL complete. Ready for Week 3: ML Models.")
+    print("\n✓ ETL complete.")
 
 
 if __name__ == "__main__":

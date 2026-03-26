@@ -1,15 +1,3 @@
-"""
-dashboard/app.py
-================
-Week 5: Plotly Dash Dashboard — Main Entry Point
-
-Usage:
-    cd C:\\Users\\Lenovo\\Downloads\\energy-grid-analyzer
-    python dashboard/app.py
-
-Then open: http://localhost:8050
-"""
-
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -28,7 +16,7 @@ app = dash.Dash(
     suppress_callback_exceptions=True,
 )
 
-server = app.server  # needed for Hugging Face / Gunicorn deployment
+server = app.server 
 
 # ── Layout ─────────────────────────────────────────────────
 app.layout = create_layout()
@@ -43,3 +31,4 @@ if __name__ == "__main__":
     print("  Open: http://localhost:8050")
     print("=" * 50 + "\n")
     app.run(debug=True, port=8050)
+ 

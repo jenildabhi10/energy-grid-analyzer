@@ -177,5 +177,4 @@ Open **http://localhost:8050** in your browser.
 
 **Data:** Python · Requests · Pandas · SQLite  
 **ML:** XGBoost · PyTorch · Scikit-learn · SHAP  
-**Dashboard:** Plotly Dash · Dash Bootstrap Components  
-**Deploy:** Hugging Face Spaces · Gunicorn · Docker
+**Dashboard:** Plotly Dash · Dash Bootstrap Components
